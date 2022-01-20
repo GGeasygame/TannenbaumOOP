@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.ictbz.tannenbaum.tannenbaum.Controller">
+   <children>
+      <Label layoutX="33.0" layoutY="39.0" text="Stammbreite" />
+      <Label layoutX="35.0" layoutY="84.0" text="Stammhöhe" />
+      <Label layoutX="35.0" layoutY="133.0" text="Kronenhöhe" />
+      <TextField fx:id="stammbreiteTextField" layoutX="144.0" layoutY="35.0" prefHeight="26.0" prefWidth="104.0" />
+      <TextField fx:id="stammhoeheTextField" layoutX="144.0" layoutY="80.0" prefHeight="26.0" prefWidth="104.0" />
+      <TextField fx:id="kronenhoeheTextField" layoutX="144.0" layoutY="138.0" prefHeight="26.0" prefWidth="104.0" />
+      <Button layoutX="272.0" layoutY="138.0" mnemonicParsing="false" onAction="#onButtonTanneZeichnen" text="Tanne zeichnen" />
+      <TextArea fx:id="tanneTextArea" layoutX="25.0" layoutY="184.0" prefHeight="392.0" prefWidth="342.0">
+         <font>
+            <Font name="Courier New" size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
